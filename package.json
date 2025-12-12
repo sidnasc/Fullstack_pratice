@@ -1,0 +1,30 @@
+{
+  "name": "fullstack_pratice",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidnasc/Fullstack_pratice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidnasc/Fullstack_pratice/issues"
+  },
+  "homepage": "https://github.com/sidnasc/Fullstack_pratice#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
